@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head><!--Inicio head-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinConsult - Assessoria Financeira</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Fim google fonts -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Fim Bootstrap -->
+
+    <link rel="stylesheet" href="Arquivos/Css/styles.css">
+</head><!--Fim head-->
+
+<body>
+
+
+    <header>
+        <div class="interface">
+
+            <div class="logo">
+                <a href="#">
+                    <img src="Arquivos/Img/Logo.png" alt="Logo da FinConsult" width="275" height="75">
+                </a>
+            </div><!-- Logo -->
+
+            <nav class="menu-desktop">
+                <ul class="nav-links">
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#Especialidade">Especialidade</a></li>
+                    <li><a href="#sobre-mim">Sobre</a></li>
+                    <li><a href="#Serviços">Serviços</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#contatos">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <div class="btn-menu-mobile" id="btn-menu" onclick="abrirMenu()">
+                <i class="bi bi-list"></i>
+            </div>
+              
+              <!-- Menu Mobile -->
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar" id="btnFechar">
+                  <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                  <ul>
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#Especialidade">Especialidade</a></li>
+                    <li><a href="#sobre-mim">Sobre</a></li>
+                    <li><a href="#Serviços">Serviços</a></li>
+                    <li><a href="#contatos">Contato</a></li>
+                  </ul>
+                </nav>
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+            
+        </div><!-- Interface -->
+
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="Inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>BPO FINANCEIRO</h1>
+                        <p>Nossa missão é simplificar e otimizar a gestão financeira do seu negócio com processos 100%
+                            online, ágeis e sem burocracia.
+                            Reduza custos, evite erros e tome decisões estratégicas com relatórios precisos e
+                            personalizados.
+                            <br>
+                            <br>
+                            Conte com segurança do seu dados certificada e sigilo absoluto em todas as operações.
+                            <br>
+                            <br>
+                            Deixe a burocracia conosco e foque no que realmente importa: o crescimento do seu negócio.
+                        </p>
+
+                        <div class="btn-contato">
+                            <a href="https://wa.me/5512982267398" target="_blank">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="Arquivos/Img/Document Signing Scene.jpeg" alt="Logo da FinConsult">
+                    </div><!--img-topo-site-->
+
+                </div><!--flex-->
+
+            </div><!-- Interface -->
+        </section><!--topo do site -->
+
+        <section class="Especialidade" id="Especialidade">
+            <div class="interface">
+                <h1>ESPECIALIDADE DA FINCONSULT</h1>
+
+                <p class="intro">Na FinConsult, entendemos que o controle financeiro é um dos maiores desafios para
+                    empreendedores. Por isso, oferecemos soluções especializadas para ajudar você a organizar, planejar
+                    e otimizar as finanças do seu negócio.</p>
+
+                <div class="flex">
+                    <div class="Especialidade-item">
+                        <img src="Arquivos/Img/Elegant Workspace.jpeg" alt="Logo da FinConsult">
+                        <h3>Gestão Financeira Estratégica</h3>
+                        <p>Apoio na organização e controle das finanças empresariais. Implementação de processos para um
+                            acompanhamento eficiente.</p>
+                    </div>
+
+                    <div class="Especialidade-item">
+                        <img src="Arquivos/Img/Hand Writing Close-Up.jpeg" alt="Logo da FinConsult">
+                        <h3>Consultoria para Empreendedores</h3>
+                        <p>Soluções personalizadas para quem precisa de suporte em decisões financeiras. Orientação para
+                            empresários que desejam focar em outras áreas do negócio.</p>
+                    </div>
+
+                    <div class="Especialidade-item">
+                        <img src="Arquivos/Img/Hands Typing on Keyboard.jpeg" alt="Logo da FinConsult">
+                        <h3>Terceirização Financeira</h3>
+                        <p>Delegue atividades financeiras complexas à nossa equipe especializada.Ganhe tempo e
+                            tranquilidade enquanto cuidamos dos números por você.</p>
+                    </div>
+
+                    <!-- <div class="Especialidade-item">
+                        <img src="Arquivos/Img/Document Signing Scene.jpeg" alt="Logo da FinConsult">
+                        <h2>Assessoria Financeira</h2>
+                        <p>Atendimento personalizado e focado na solução de problemas financeiros.</p>
+                    </div> -->
+
+                    </div"><!--Flex-->
+                </div><!--Interface-->
+        </section><!--Especialidade-->
+
+        <section class="sobre-mim" id="sobre-mim">
+            <div class="interface">
+                <div class="flex">
+                    <div class="sobre-mim-imagem">
+                        <img src="Arquivos/Img/Marcia.jpg" alt="Logo da FinConsult">
+                    </div>
+
+                    <div class="sobre-mim-txt">
+                        <h2>SOBRE MIM</h2>
+                        <p>Agradecemos pelo seu interesse nos nossos
+                            serviços de BPO financeiro.
+
+                            Atualmente, a FinConsult é conduzida pela
+                            Gestora Márcia Santana, profissional com
+                            formação em Gestão Financeira e mais de 20 anos
+                            de experiência nas áreas Administrativa, Contábil
+                            e Financeira. Com dedicação e conhecimento,
+                            oferece soluções personalizadas para atender às
+                            necessidades dos clientes. A transparência e a conformidade fiscal são pilares do nosso
+                            trabalho, assegurando que todas as operações estejam em compliance com as normas vigentes.
+                        </p>
+
+
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--Sobre-->
+
+        <section class="Serviços" id="Serviços">
+            <h1>SERVIÇOS DA FINCONSULT</h1>
+
+            <div class="interface">
+                <div class="plano-card regularizacao">
+                    <div class="plano-header">
+                        <h2>REGULARIZAÇÃO</h2>
+                        <div class="preco">Taxa única de abertura do MEI: <span>R$ 139</span></div>
+                    </div>
+                    <ul class="beneficios">
+                        </i><i class="bi bi-check-square-fill"></i> Cadastro e Regularização</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Emissão do CCMEI (Certificado de Condição de MEI)</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Orientação sobre a escolha correta das atividades permitidas</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Situação cadastral</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Emissão e envio da primeira Guia (DAS) MEI</li>
+                    </ul>
+                    <div class="separador"></div>
+                </div><!--plano-card-->
+
+                <div class="plano-card essencial">
+                    <div class="plano-header">
+                        <h2>ESSENCIAL</h2>
+                        <div class="preco">Gestão básica e eficiente para o MEI: <span>R$ 59/mês</span> ou <span>R$
+                                499/ano</span></div>
+                    </div>
+                    <ul class="beneficios">
+                        </i><i class="bi bi-check-square-fill"></i> Emissão ilimitada de notas fiscais e boletos (até R$ 6.750,00/mês)</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Envio DAS mensal</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Declaração Anual do MEI (DASN-SIMEI)</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Consulta da situação cadastral do MEI</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Suporte sobre obrigações, tributos e benefícios</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Atendimento via WhatsApp e e-mail</li><br>
+                    </ul>
+                    <div class="separador"></div>
+                </div><!--plano-card-->
+
+                <div class="plano-card premium">
+                    <div class="plano-header">
+                        <h2>PREMIUM</h2>
+                        <div class="preco">Gestão completa, com suporte na organização financeira e inclusão de
+                            funcionário: <span>R$ 149/mês</span> ou <span>R$ 999/ano</span></div>
+                    </div>
+                    <ul class="beneficios">
+                        </i><i class="bi bi-check-square-fill"></i> Todos os serviços do Pacote Essencial</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Relatório mensal de receitas e despesas</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Contas a pagar e a receber</li><br>
+                        </i><i class="bi bi-check-square-fill"></i> Fluxo de Caixa</li><br><br>
+                        </i><i class="bi bi-caret-right-fill"></i></i> Inclui a gestão de funcionário sem custo adicional</li><br>
+                    </ul>
+                    <div class="separador"></div>
+                </div><!--plano-card-->
+            </div><!--interface-->
+
+            <div class="observacao">
+                <p>Plano ESSENCIAL com funcionário: <span>R$ 99/mês</span> ou <span>R$ 799/ano</span></p>
+                <p class="seta"><i class="bi bi-arrow-right"></i> Registro no eSocial, cálculo de folha de pagamento e guias trabalhistas</p>
+            </div><!--observacao-->
+
+        </section><!--Serviços-->
+
+        <section id="contatos" class="contatos">
+            <h2 class="titulo">VAMOS CONVERSAR?</h2>
+            <p>Conte conosco para transformar seus desafios financeiros em oportunidades de
+            crescimento. Estamos prontos para trabalhar ao seu lado e ajudar a levar seu
+            negócio ao próximo nível.</p>
+            <div class="interface">
+                <div class="contatos-box">
+                    <ul>
+                        <li>
+                            <p>@finconsult.sjc</p>
+                            <a href="https://instagram.com/finconsult.sjc" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <p>(12) 98226-7398</p>
+                            <a href="https://wa.me/5512982267398" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                        </li>
+                        <li>
+                            <p>marcia@finconsult.com.br</p>
+                            <a href="mailto:marcia@finconsult.com.br" target="_blank">
+                                <i class="fas fa-envelope"></i>
+                                <span>E-mail</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--contatos-box-->
+            </div><!--interface-->
+        </section><!--Contatos-->
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Developed by adilsonssdev. <a href="https://adilsonssdev.github.io/" target="_blank">Solicite o seu serviço </a> Todos os direitos reservados.</p>
+            <button id="back-to-top" title="Voltar ao topo">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="Arquivos/js/script.js" defer></script>
+
+</body>
+
+</html>
